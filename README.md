@@ -1,6 +1,6 @@
 ### HABLEMOS PYTHON
-En este repositorio estaremos subiendo los ejemplos y ejercicios que vayamos haciendo durante la serie de talleres para aprender Python llamados **HABLEMOS PYTHON**.
-> **Este taller estara dividido en los siguientes topicos:**
+Este repositorio contendrá ejemplos y ejercicios que se realizarán durante la serie de talleres para aprender Python llamados **HABLEMOS PYTHON**.
+> **Este taller estará dividido en los siguientes temas:**
 ###### Sección 1: Introducción
 - Bienvenida y descripción del curso
 - Instalación de Python 3 y configuración del IDE
