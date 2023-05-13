@@ -28,7 +28,7 @@ names_lst = ["Neymar Jr", "Vini Jr", "CR7",8, True]
 cities_lst = ["Granada","Leon"]
 
 # Data Types - Tupla o tuple
-phone_numbers_tpl = ("89067856", "34567890")
+phone_numbers_tpl = ("89067856", "34567890", "67894567", "90234567")
 colors_tpl = ("red", "green", "yellow")
 languages_tpl = ("Python", "Golang", "JavaScript", "Java")
 
@@ -36,29 +36,51 @@ languages_tpl = ("Python", "Golang", "JavaScript", "Java")
 simple_dict = {"language":"Python","country":"Nicaragua"}
 developer_dict = {"name": "Beatriz", "age": 23, "ciudad": "Managua"}
 
-# print(num1+a)
-# print(sum(amount_lst))
-# print(user_lst[-2])
+# suma simple de variables usando print para ver en pantalla
+print(num1+a)
 
-# List Methods
-# print("Lista de Usuarios: ", user_lst)
-# user_lst.append("Juan")
-# print("Lista de Usuarios Modificada: ", user_lst)
-# print(f"El segundo valor de esta lista es: {combined_lst[1:2]}")
-# print(f"La Lista {user_lst} tiene {len(user_lst)} elementos")
-# print(f"El numero 3 se repite {amount_lst.count(3)} veces en esta lista")
-# print("El numero 2 se repite", amount_lst.count(2)," veces en esta lista")
-# print("El numero 5 se repite " + str(amount_lst.count(5)) + " veces en esta lista")
-# player_lst.extend(names_lst[:3])
-# print(player_lst)
+# Suma de elementos de lista
+print(sum(amount_lst))
 
-# print(f"Desordenada: {unsorted_lst}")
-# unsorted_lst.sort()
-# print(f"Ordenada: {unsorted_lst}")
-# unsorted_lst.sort(reverse=True)
-# print(f"Revertida: {unsorted_lst}")
+# Retornar ultimo elemento de lista
+print(user_lst[-1])
 
+#List Methods
+print("Lista de Usuarios: ", user_lst)
+
+#Append
+user_lst.append("Juan")
+print("Lista de Usuarios Modificada: ", user_lst)
+
+# Elementos especificos de la lista
+print(f"El segundo valor de esta lista es: {combined_lst[1:2]}")
+
+# Conteo de elementos de lista usando len
+print(f"La Lista {user_lst} tiene {len(user_lst)} elementos")
+
+# Conteo de elementos repetidos en lista y diferentes formas de imprimir
+print(f"El numero 3 se repite {amount_lst.count(3)} veces en esta lista")
+print("El numero 2 se repite", amount_lst.count(2)," veces en esta lista")
+print("El numero 5 se repite " + str(amount_lst.count(5)) + " veces en esta lista")
+
+# Usando el metodo extend para juntar dos listas con elementos especificos
+player_lst.extend(names_lst[:3])
+print(player_lst)
+
+# Ordenamiento de listas
+print(f"Desordenada: {unsorted_lst}")
+
+# Ordenar la lista
+unsorted_lst.sort()
+print(f"Ordenada: {unsorted_lst}")
+
+# Revertir el orden de lista
+unsorted_lst.sort(reverse=True)
+print(f"Revertida: {unsorted_lst}")
+
+# Ejemplos de metodos de listas
 print(f"Inicial: {cities_lst}")
+
 # usamos append para agregar otra ciudad
 cities_lst.append("Managua")
 print(f"Con mas Ciudades: {cities_lst}")
