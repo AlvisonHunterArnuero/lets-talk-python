@@ -10,6 +10,8 @@ c = 90.35
 d = -6.78
 e = 0.00
 
+dude = "dude"
+
 # Cadenas o string
 nombre = "Albiceleste"
 direccion = 'Python es bacano!'
@@ -21,6 +23,7 @@ is_sunny = False
 # Data Types - Lista o list
 user_lst = ["Jeerson", "Marvin", "Dibbhier",
             "Beatriz", "Hector", "Alvison", "Jairo"]
+
 combined_lst = [num1, "Maria Esther", a, direccion]
 player_lst = ["Leo Messi", "Kylian Mbappe"]
 amount_lst = [2, 3, 7, 8, 5, 5, 6, 1, 2, 3, 5, 3, 3, 4, 3, 2]
