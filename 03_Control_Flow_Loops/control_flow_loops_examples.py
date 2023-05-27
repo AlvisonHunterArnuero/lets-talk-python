@@ -1,3 +1,4 @@
+# --------  Conditional if with several cases -------- 
 num = 1
 if num > 3:
     print("Numero Mayor que 3")
@@ -6,7 +7,7 @@ elif num == 3:
 else:
     print("Numero menor que 3")
 
-# Ternary Operator Example
+# -------- Ternary Operator Example -------- 
 gender = "B"
 print("Masculine" if gender=="M" else "Femenine")
 
@@ -27,7 +28,7 @@ def switch_case(search_term: str) -> str:
         return ("You can be what you want!")
 print(switch_case(term_to_pass))
 
-# Second Example using Dictionaries
+# --------  Second Example using Dictionaries -------- 
 spoken_lang_dict = {"English": "You are from England", "Spanish": "You are from Nicaragua",
                     "French": "You are from France", "Portuguese": "You are from Brazil"}
 
@@ -41,13 +42,13 @@ def nationality(spoken_language: str)-> str:
 spoken_language = "French"
 print(nationality(spoken_language))
 
-# using While Loop
+# -------- Example using While Loop -------- 
 count = 0
 while count < 5:
     print("Count is: ", count)
     count += 1
 
-# For Loops with Range
+# -------- For Loops with Range -------- 
 for num in range(1,10,3):
     print("Number is: ", num)
 
@@ -58,12 +59,37 @@ for fruit in favorite_fruits:
 for fruit_index in range(1,len(favorite_fruits),2):
     print(favorite_fruits[fruit_index])
 
-# for loop on strings
+# -------- For loop using strings -------- 
 message = "Nicaragua"
 for char in message:
     print("Character: ", char)
 
-# nested for loops
+# -------- Nested for loops -------- 
 for i in range(1,4):
     for j in range(1,4):
         print("is is: ", i, "j is: ", j)
+
+# -------- For loops with break -------- 
+numbers = [1,2,3,4,5,6]
+for num in numbers:
+    if num == 5:
+        print("Finished loop on number ", num)
+        break
+    print("Current number is: ", num)
+
+for num2 in numbers:
+    if num2 == 3:
+        print("I just passed number ", num2)
+        continue
+    print("Current number is: ", num2)
+
+# -------- For loop with else -------- 
+for n in numbers:
+    print("Current number is : ", n)
+else:
+    print("For loop completed")
+
+# -------- For loop with enumerate -------- 
+countries = ["Nicaragua","Argentina", "Colombia", "Costa Rica"]
+for index, country in enumerate(countries):
+    print("Index: ", index, "Country: ", country)
