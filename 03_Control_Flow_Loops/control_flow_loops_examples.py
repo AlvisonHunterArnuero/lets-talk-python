@@ -62,3 +62,8 @@ for fruit_index in range(1,len(favorite_fruits),2):
 message = "Nicaragua"
 for char in message:
     print("Character: ", char)
+
+# nested for loops
+for i in range(1,4):
+    for j in range(1,4):
+        print("is is: ", i, "j is: ", j)
