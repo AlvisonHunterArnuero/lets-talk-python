@@ -1,4 +1,4 @@
-def sum(num1: int, num2: int) -> int:
+def add(num1: int, num2: int) -> int:
     """
     Returns the sum of two numbers.
 
@@ -12,7 +12,7 @@ def sum(num1: int, num2: int) -> int:
     return num1 + num2
 
 
-def substract(num1: int, num2: int) -> int:
+def subtract(num1: int, num2: int) -> int:
     """
     Returns the difference between two numbers.
 
@@ -50,7 +50,13 @@ def division(num1: float, num2: float) -> float:
 
     Returns:
         float: The result of num1 divided by num2.
+
+    Raises:
+        ZeroDivisionError: If num2 is zero.
     """
+    if num2 == 0:
+        raise ZeroDivisionError("Division by zero is not allowed.")
     return num1 / num2
+
 
 
